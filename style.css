@@ -1,6 +1,7 @@
-h1 { font-family: "Cursive", cursive, sans-serif;}
-h4 { font-family: "Cursive", cursive, sans-serif;}
-p { font-family: "Cursive", cursive, sans-serif;}
+body {
+    background: #8dd453
+    font-family: "Cursive", cursive, sans-serif;
+}
 
 img {
     max-width:50%;
@@ -21,4 +22,9 @@ span {
 
 .centered {
   text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
