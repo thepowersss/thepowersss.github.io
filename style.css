@@ -1,10 +1,6 @@
 body {
-    background-color: #bbd7f2;
+    background-color: #c8eda4;
     font-family: "Cursive", sans-serif;
-}
-
-header {
-    background-color: #95c5f5;
 }
 
 header::after {
@@ -22,16 +18,6 @@ nav {
     float: left;
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    float: left;
-}
-
 img {
     max-width:50%;
     height:auto;
@@ -43,13 +29,13 @@ img {
 
 span {
     border: 2px solid black;
-    border-color: #5564d9;
     padding:  0em 1em;
     border-radius: 10px;
     font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
     font-size: 16px;
     line-height: 1;
     color: #1364d6;
+    background-color: #6ed4c9;
 }
 
 a {
