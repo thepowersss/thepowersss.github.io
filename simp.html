@@ -8,32 +8,66 @@
     <body>
         <script src="scripts.js"></script>
         <h1 class="centered" style="line-height: 10pt;">SIMP</h1>
-        <button type="button" onclick='insertNote("C4")'>
-        C4</button>
-        <button type="button" onclick='insertNote("C#4")'>
-        C#4</button>
-        <button type="button" onclick='insertNote("D4")'>
-        D4</button>
-        <button type="button" onclick='insertNote("D#4")'>
-        D#4</button>
-        <button type="button" onclick='insertNote("E4")'>
-        E4</button>
-        <button type="button" onclick='insertNote("F4")'>
-        F4</button>
-        <button type="button" onclick='insertNote("F#4")'>
-        F#4</button>
-        <button type="button" onclick='insertNote("G4")'>
-        G4</button>
-        <button type="button" onclick='insertNote("G#4")'>
-        G#4</button>
-        <button type="button" onclick='insertNote("A4")'>
-        A4</button>
-        <button type="button" onclick='insertNote("A#4")'>
-        A#4</button>
-        <button type="button" onclick='insertNote("B4")'>
-        B4</button>
-        <p>Currently Selected Note</p>
-        <p id="notes">Notes go here</p>
+
+        <!-- Note Pitch
+        -->
+            <button type="button" onclick='setNotePitch("C4")'>
+            C4</button>
+            <button type="button" onclick='setNotePitch("C#4")'>
+            C#4</button>
+            <button type="button" onclick='setNotePitch("D4")'>
+            D4</button>
+            <button type="button" onclick='setNotePitch("D#4")'>
+            D#4</button>
+            <button type="button" onclick='setNotePitch("E4")'>
+            E4</button>
+            <button type="button" onclick='setNotePitch("F4")'>
+            F4</button>
+            <button type="button" onclick='setNotePitch("F#4")'>
+            F#4</button>
+            <button type="button" onclick='setNotePitch("G4")'>
+            G4</button>
+            <button type="button" onclick='setNotePitch("G#4")'>
+            G#4</button>
+            <button type="button" onclick='setNotePitch("A4")'>
+            A4</button>
+            <button type="button" onclick='setNotePitch("A#4")'>
+            A#4</button>
+            <button type="button" onclick='setNotePitch("B4")'>
+            B4</button>
+
+        <p>Currently Selected Note Pitch:
+            <p id="notePitch">Pitch goes here</p>
+        </p>
+        <br>
+
+        <!-- Note Duration
+        -->
+            <button type="button" onclick='setNoteDuration("whole")'>
+            Whole Note 𝅝</button>
+            <button type="button" onclick='setNoteDuration("half")'>
+            Half Note 𝅗𝅥</button>
+            <button type="button" onclick='setNoteDuration("quarter")'>
+            Quarter Note 𝅘𝅥</button>
+            <button type="button" onclick='setNoteDuration("eighth")'>
+            Eighth Note 𝅘𝅥𝅮</button>
+            <button type="button" onclick='setNoteDuration("sixteenth")'>
+            Sixteenth Note 𝅘𝅥𝅯</button>
+
+        <p>Currently Selected Note Duration:
+            <p id="noteDuration">Duration goes here</p>
+        </p>
+
+        <!-- Staff
+        -->
+            <button type="button" onclick='setStaff("1")'>
+            Staff 1 𝄞</button>
+            <button type="button" onclick='setStaff("2")'>
+            Staff 2 𝄢</button>
+
+        <p>Currently Selected Staff:
+            <p id="staff">Staff goes here</p>
+        </p>
 
         <p>
             <br>
