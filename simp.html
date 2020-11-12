@@ -6,10 +6,11 @@
         <title>SIMP</title>
     </head>
     <body>
+        <script src="scripts.js"></script>
         <h1 class="centered" style="line-height: 10pt;">SIMP</h1>
         <button type="button" onclick='insertNote("C4")'>
         C4</button>
-        <button type="button" onclick="">
+        <button type="button" onclick="document.getElementById('notes').innerHTML = 'C#4'">
         C#4</button>
         <button type="button" onclick="">
         D4</button>
@@ -37,6 +38,6 @@
             \n\n
             <button onclick="window.print()">Print/Export</button>
         </p>
-        <script src="scripts.js"></script>
+
     </body>
 </html>

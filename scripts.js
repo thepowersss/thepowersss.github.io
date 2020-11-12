@@ -1,3 +1,3 @@
 function insertNote(note) {
-    document.getElementsByID("notes").innerHTML = note;
+    document.getElementById("notes").innerHTML = note;
 }
