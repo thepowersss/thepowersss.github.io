@@ -9,6 +9,13 @@
         <script src="scripts.js"></script>
         <h1 class="centered" style="line-height: 10pt;">SIMP</h1>
 
+        <!-- Staff
+        -->
+            <button type="button" onclick='setStaff("1")'>
+            Staff 1 𝄞</button>
+            <button type="button" onclick='setStaff("2")'>
+            Staff 2 𝄢</button>
+
         <!-- Note Pitch
         -->
             <button type="button" onclick='setNotePitch("C4")'>
@@ -36,11 +43,6 @@
             <button type="button" onclick='setNotePitch("B4")'>
             B4</button>
 
-        <p>Currently Selected Note Pitch:
-            <p id="notePitch">Pitch goes here</p>
-        </p>
-        <br>
-
         <!-- Note Duration
         -->
             <button type="button" onclick='setNoteDuration("whole")'>
@@ -54,22 +56,28 @@
             <button type="button" onclick='setNoteDuration("sixteenth")'>
             Sixteenth Note 𝅘𝅥𝅯</button>
 
-        <p>Currently Selected Note Duration:
+        </p>
+        <p>Staff:
+            <p id="staff">Staff goes here</p>
+        </p>
+        <p>Pitch:
+            <p id="notePitch">Pitch goes here</p>
+        </p>
+        <p>Duration:
             <p id="noteDuration">Duration goes here</p>
         </p>
 
-        <!-- Staff
-        -->
-            <button type="button" onclick='setStaff("1")'>
-            Staff 1 𝄞</button>
-            <button type="button" onclick='setStaff("2")'>
-            Staff 2 𝄢</button>
-
-        <p>Currently Selected Staff:
-            <p id="staff">Staff goes here</p>
+        <p>
+            <button type="button" onclick=''>
+            Insert Note</button>
+            <button type="button" onclick=''>
+            Change Note</button>
+            <button type="button" onclick=''>
+            Delete Note</button>
         </p>
 
         <p>
+            <br>
             <br>
             <button onclick="window.print()">Print/Export</button>
         </p>
