@@ -12,9 +12,9 @@ con.connect(function(err) {
   console.log("Connected to jame server!");
 });
 
-con.query('SELECT *', function(error, results, fields) {
+con.query('SELECT * FROM notes', function(error, result, fields) {
     if (error) throw error;
-    console.log("The solution is: ", results[0].solution);
+    console.log("The solution is: ", result);
 });
 
 con.end();
