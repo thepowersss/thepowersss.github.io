@@ -7,7 +7,8 @@
     </head>
     <body>
         <script src="scripts.js">
-            var pitch, octave;
+            var pitch = "examplePitch";
+            var octave = "exampleOctave";
         </script>
         <h1 class="centered" style="line-height: 10pt;">SIMP</h1>
 
@@ -23,11 +24,11 @@
         <!-- Note Octave
         -->
         <p>Note Octave</p>
-            <button type="button" onclick='octave = setNoteOctave("2")'>
+            <button type="button" onclick='etNoteOctave("2")'>
             Octave 2</button>
-            <button type="button" onclick='octave = setNoteOctave("3")'>
+            <button type="button" onclick='setNoteOctave("3")'>
             Octave 3</button>
-            <button type="button" onclick='octave = setNoteOctave("4")'>
+            <button type="button" onclick='setNoteOctave("4")'>
             Octave 4</button>
             <button type="button" onclick='setNoteOctave("5")'>
             Octave 5</button>
@@ -36,11 +37,11 @@
         <!-- Note Pitch
         -->
         <p>Pitch</p>
-            <button type="button" onclick='pitch = setNotePitch("C4")'>
+            <button type="button" onclick='setNotePitch("C4")'>
             C4</button>
-            <button type="button" onclick='pitch = setNotePitch("C#4")'>
+            <button type="button" onclick='setNotePitch("C#4")'>
             C#4</button>
-            <button type="button" onclick='pitch = setNotePitch("D4")'>
+            <button type="button" onclick='setNotePitch("D4")'>
             D4</button>
             <button type="button" onclick='setNotePitch("D#4")'>
             D#4</button>
@@ -83,7 +84,7 @@
         </p>
         <p>
             <script>
-                document.getElementById('note').innerHTML = pitch + octave;
+                document.getElementById('note').innerHTML = pitch.concat(octave);
             </script>
             <p id="note">Pitch goes here</p>
         </p>
