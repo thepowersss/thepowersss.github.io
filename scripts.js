@@ -7,3 +7,6 @@ function setNoteDuration(note) {
 function setStaff(staff) {
     document.getElementById("staff").innerHTML = staff;
 }
+function setNoteOctave(note) {
+    document.getElementById("noteOctave").innerHTML = note;
+}

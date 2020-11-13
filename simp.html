@@ -11,14 +11,29 @@
 
         <!-- Staff
         -->
-            <button type="button" onclick='setStaff("1")'>
+        <p>Staff</p>
+            <button type="button" onclick='setStaff("staff 1")'>
             Staff 1 𝄞</button>
-            <button type="button" onclick='setStaff("2")'>
+            <button type="button" onclick='setStaff("staff 2")'>
             Staff 2 𝄢</button>
+        <br>
+
+        <!-- Note Octave
+        -->
+        <p>Note Octave</p>
+            <button type="button" onclick='setNoteOctave("2")'>
+            Octave 2</button>
+            <button type="button" onclick='setNoteOctave("3")'>
+            Octave 3</button>
+            <button type="button" onclick='setNoteOctave("4")'>
+            Octave 4</button>
+            <button type="button" onclick='setNoteOctave("5")'>
+            Octave 5</button>
         <br>
 
         <!-- Note Pitch
         -->
+        <p>Pitch</p>
             <button type="button" onclick='setNotePitch("C4")'>
             C4</button>
             <button type="button" onclick='setNotePitch("C#4")'>
@@ -47,6 +62,7 @@
 
         <!-- Note Duration
         -->
+        <p>Duration</p>
             <button type="button" onclick='setNoteDuration("whole")'>
             Whole Note 𝅝</button>
             <button type="button" onclick='setNoteDuration("half")'>
@@ -61,13 +77,14 @@
 
         </p>
         <p>
-            Staff: <p id="staff">Staff goes here</p>
+            <p id="staff">Staff goes here</p>
         </p>
         <p>
-            Pitch: <p id="notePitch">Pitch goes here</p>
+            <p id="notePitch">Pitch goes here</p>
+            + <p id="noteOctave"></p>
         </p>
         <p>
-            Duration: <p id="noteDuration">Duration goes here</p>
+            <p id="noteDuration">Duration goes here</p>
         </p>
 
         <p>
