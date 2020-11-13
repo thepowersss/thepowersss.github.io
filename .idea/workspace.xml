@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b848fdcb-b0b8-41b8-91c6-c4b946652568" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/require.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/db_connection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_queries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simp.html" beforeDir="false" afterPath="$PROJECT_DIR$/simp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/db_connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/db_connection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sherwin\Desktop\TheGitStuff\thepowersss.github.io\scripts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sherwin\Desktop\TheGitStuff\thepowersss.github.io" />
     </key>
