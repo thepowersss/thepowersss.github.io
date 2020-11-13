@@ -6,11 +6,12 @@
         <title>SIMP</title>
     </head>
     <body>
-        <script src="scripts.js">
+        <script src="scripts.js"></script>
+        <h1 class="centered" style="line-height: 10pt;">SIMP</h1>
+        <script>
             var pitch = "examplePitch";
             var octave = "exampleOctave";
         </script>
-        <h1 class="centered" style="line-height: 10pt;">SIMP</h1>
 
         <!-- Staff
         -->
@@ -84,9 +85,9 @@
         </p>
         <p>
             <script>
-                document.getElementById('note').innerHTML = pitch.concat(octave);
+                document.getElementById("note").innerHTML = pitch + octave;
             </script>
-            <p id="note">Pitch goes here</p>
+            <p id="note">Pitch and octave goes here</p>
         </p>
         <p>
             <p id="noteDuration">Duration goes here</p>
