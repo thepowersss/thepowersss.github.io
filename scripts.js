@@ -1,5 +1,4 @@
 function setNotePitch(note) {
-    document.getElementById("notePitch").innerHTML = note;
     window.pitch = note;
 }
 function setNoteDuration(note) {
@@ -9,6 +8,5 @@ function setStaff(staff) {
     document.getElementById("staff").innerHTML = staff;
 }
 function setNoteOctave(note) {
-    document.getElementById("noteOctave").innerHTML = note;
     window.octave = note;
 }
