@@ -1,3 +1,4 @@
+/*
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
@@ -18,3 +19,4 @@ con.query('SELECT * FROM notes', function(error, result, fields) {
 });
 
 con.end();
+*/

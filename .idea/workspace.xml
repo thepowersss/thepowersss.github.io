@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b848fdcb-b0b8-41b8-91c6-c4b946652568" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/db_connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/db_connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simp.html" beforeDir="false" afterPath="$PROJECT_DIR$/simp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +60,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606429720170">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.-201.1920.1040@0.0.1536.824" timestamp="1606429720170" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1605159804723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
