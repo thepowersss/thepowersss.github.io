@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <title>SC2 Cheese Picker</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scripts\sc2 cheese generator\cheese_picker.py"></script>
+        <script>
+            $.ajax({
+                type: "GET",
+                url: "scripts/cheese_picker.py",
+                data: { param: text}
+            }).done(function(main()) {
+                function generate_cheese(data) {
+                    document.getElementById("cheese_display").innerHTML = data;
+                }
+            });
+        </script>
+    </head>
+    <body>
+
+        <h1 class="centered" style="line-height: 10pt;">Sherwin's Starcraft 2 Cheese Picker</h1>
+        <h2 class="centered">This is for meme purposes only</h2>
+
+        <p>
+            <p id="cheese_display">[Insert Cheese Here]</p>
+            <br>
+            <br>
+            <button onclick='generate_cheese()'>Generate Cheese</button>
+        </p>
+
+    </body>
+</html>
