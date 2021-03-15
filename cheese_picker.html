@@ -6,18 +6,7 @@
         <title>SC2 Cheese Picker</title>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="scripts\sc2 cheese generator\cheese_picker.py"></script>
-        <script>
-            $.ajax({
-                type: "GET",
-                url: "scripts/cheese_picker.py",
-                data: { param: text}
-            }).done(function(main()) {
-                function generate_cheese(data) {
-                    document.getElementById("cheese_display").innerHTML = data;
-                }
-            });
-        </script>
+        <script src="scripts/generate_cheese.js"></script>
     </head>
     <body>
 
@@ -28,7 +17,7 @@
             <p id="cheese_display">[Insert Cheese Here]</p>
             <br>
             <br>
-            <button onclick='generate_cheese()'>Generate Cheese</button>
+            <button onclick='generateCheese()'>Generate Cheese</button>
         </p>
 
     </body>
