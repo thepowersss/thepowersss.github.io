@@ -1,7 +1,5 @@
-const fs = require('fs');
 function generateCheese() {
-    
-
+    const fs = require('fs');
     fs.readFile('/scripts/sc2_cheese_list.txt', 'utf8' , (err, data) => {
         if (err) {
             console.error(err);
