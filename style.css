@@ -18,6 +18,18 @@ nav {
     float: left;
 }
 
+.bigButton{
+    height:200px;
+    width:400px;
+    text-align: center;
+}
+
+.flashyText{
+    font-size:120px;
+    color: #1364d6;
+    text-align: center;
+}
+
 img {
     max-width:50%;
     height:auto;
