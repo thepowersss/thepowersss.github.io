@@ -1,64 +1,56 @@
-banelings only
+lingbane 1 base all in
 cannon rush
 carrier rush
 proxy racks bunker rush
-BCs only
-double proxy robo
+raven spam
+double proxy robo immo juggle
 crawlers + queens only
 mass reapers
 14pool ling rush
 mass marines
-vikings only
+viking spam
 mass oracles
-void rays only
-spine crawler rush
+void ray spam
+spine crawler rush (ZvZ)
 mass cloaked banshees
 thor drop rush
-battery overcharge rush
 bunker rush
 hellion + hellbat rush
-zealot only
+1 base zealot all in
 ninja base
 mass phoenix
 proxy stargate
-corner base
 planetary fortress rush
 ling+spine rush
 battlecruiser rush
-mothership rush
-nexus block their base
+nexus block their ramp
+3 pylon wall off their ramp
 mass liberators
 raven harass
-1 base all in
-wall off natural
+1 base all in marine + scv
+wall off THEIR natural
 swarm host nydus
 mass nukes
 proxy hatchery
 proxy gateway
 proxy pylon
 mass widow mines
-build a base in their main
-only robo units
-corruptor + broodlord
-mass infestor
-engi bay block into planetary rush
+mass infestor fungal + neural
+engi bay block into planetary rush in their main
 probe rush
 collosus drop
 only transported attacks
-no gas
 mothership rush
 proxy spine crawler attack
 blink dts
-proxy nexus
-zealot archon
+proxy fusion core
 zealot drop spam
-lurker ling
 mass queen
 mass hallucinations
 mass reaper
-proxy planetary
+proxy planetary their natural
 colossus rush
-ultra ling
+viper spam
 proxy tech buildings
-mothership/voidray
+mothership recall -> shield batteries in their main
 warp prism cannon rush
