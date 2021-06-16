@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b848fdcb-b0b8-41b8-91c6-c4b946652568" name="Default Changelist" comment="" />
+    <list default="true" id="b848fdcb-b0b8-41b8-91c6-c4b946652568" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonParser" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -83,6 +86,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1180" y="74" key="FileChooserDialogImpl" timestamp="1622671343375">
+      <screen x="-1920" y="-201" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="74" key="FileChooserDialogImpl/0.0.1536.824/-1920.-201.1920.1040@-1920.-201.1920.1040" timestamp="1622671343375" />
     <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1615872402402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
