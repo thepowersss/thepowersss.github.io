@@ -4,23 +4,19 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="utf-8">
         <title>SC2 Cheese Picker</title>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="scripts/generate_cheese.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
-
-        <h1 class="centered" style="line-height: 10pt;">Sherwin's Starcraft 2 Cheese Picker</h1>
-        <h2 class="centered">This is for meme purposes only</h2>
-
-        <p>
+        <div class='nav-col'>
+            <h1 class="centered">Starcraft 2 Cheese Picker</h1>
+            <h2 class="centered">This is for meme purposes only</h2>
+    
             <p class="flashyText" id="cheese_display">[Insert Cheese Here]</p>
-            <br>
-            <br>
             <button class="bigButton" onclick='generateCheese()'>Generate Cheese</button>
-        </p>
 
-        <span><a href="index.html">Go Back</a></span>
-
+            <span title = "Download Cheese List as .txt"><a href = "scripts/sc2_cheese_list.txt" download>Download Cheese List [.txt]</a></span>
+            <span class='centered'><a href="index.html">Go Back</a></span>
+        </div>
     </body>
 </html>

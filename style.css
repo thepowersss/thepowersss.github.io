@@ -1,3 +1,22 @@
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin:10px;
+    }
+    img.cover-image {
+        max-width:auto;
+        height: auto;
+    }
+    div.col-wrapper {
+        display: flex;
+        align-items: center;
+    }
+}
+
 body {
     background-color: #c8eda4;
     font-family: "Cursive", sans-serif;
@@ -19,16 +38,13 @@ nav {
 }
 
 .bigButton{
-    position: relative;
-    height:200px;
-    width:400px;
-    font-size:50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    display: block;
-    align-items: center;
+    border-radius: 10px;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    color: black;
+    background-color: lightgray;
+    margin:4px;
 }
 
 .flashyText{
@@ -38,8 +54,8 @@ nav {
 }
 
 img {
-    max-width:50%;
-    height:auto;
+    max-width:100%;
+    height: auto;
     display: block;
     border-radius: 500px;
     margin-left: auto;
@@ -55,6 +71,7 @@ span {
     line-height: 1;
     color: #1364d6;
     background-color: #6ed4c9;
+    margin:4px;
 }
 
 a {
@@ -79,6 +96,13 @@ a:hover {
 /* selected link */
 a:active {
   color: #1364d6;
+}
+
+.nav-col{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    text-align: center;
 }
 
 .centered {
